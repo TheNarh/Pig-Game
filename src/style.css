@@ -165,3 +165,8 @@ main {
   font-weight: 700;
   color: #c7365f;
 }
+
+/* class to hide dice image */
+.hidden {
+  display: none;
+}

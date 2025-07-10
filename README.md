@@ -1,2 +1,2 @@
 # Pig-Game
-Two players take turns rolling a die and accumulating points based on each roll.
+Two players take turns rolling a dice and accumulating points based on each roll.

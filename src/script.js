@@ -35,6 +35,7 @@ const init = function() {
 }
 init();
 
+// function to switch player
 const switchPlayer = function () {
     document.getElementById(`current--${activePlayer}`).textContent = 0;
     currentScore = 0;
@@ -91,6 +92,5 @@ btnHold.addEventListener('click', function () {
         }
     }
 })
-
 // Reset the game
 btnNew.addEventListener('click', init);

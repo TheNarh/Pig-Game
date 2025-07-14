@@ -1,6 +1,6 @@
 "use strict";
 
-// Selecting elements
+// Selecting elements to work with
 const player0El = document.querySelector('.player--0');
 const player1El = document.querySelector('.player--1');
 const score0El = document.getElementById('score--0');
@@ -59,7 +59,7 @@ btnRoll.addEventListener('click', function () {
         // Remove animation after it ends
         setTimeout(() => diceEl.classList.remove('animate'), 400);
 
-        // 3. Check if rolled 1
+        // 3. Check if dice rolled 1
         if (dice !== 1) {
             // Add dice rolled to current score
             currentScore += dice;
